@@ -6,49 +6,53 @@
 
 @layer base {
   :root {
-    /* Light background with soft blue undertones */
-    --background: 220 20% 98%;
-    --foreground: 220 40% 15%;
+    /* Vibrant light background with blue undertones */
+    --background: 215 30% 97%;
+    --foreground: 220 50% 10%;
 
-    /* Card with subtle blue tint */
-    --card: 215 25% 97%;
-    --card-foreground: 220 30% 20%;
+    /* Card with rich blue tint */
+    --card: 210 40% 98%;
+    --card-foreground: 220 40% 15%;
 
-    --popover: 215 25% 97%;
-    --popover-foreground: 220 30% 20%;
+    --popover: 210 40% 98%;
+    --popover-foreground: 220 40% 15%;
 
-    /* Beautiful blue primary */
-    --primary: 210 85% 55%;
+    /* Bold vibrant blue primary */
+    --primary: 210 100% 56%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 210 85% 70%;
+    --primary-glow: 210 100% 70%;
+    --primary-dark: 210 100% 45%;
 
-    /* Light blue secondary */
-    --secondary: 210 50% 95%;
-    --secondary-foreground: 210 80% 25%;
+    /* Rich blue secondary */
+    --secondary: 210 80% 94%;
+    --secondary-foreground: 210 100% 25%;
 
-    /* Muted with blue undertones */
-    --muted: 215 30% 94%;
-    --muted-foreground: 220 20% 50%;
+    /* Enhanced muted with blue undertones */
+    --muted: 210 50% 92%;
+    --muted-foreground: 220 30% 45%;
 
-    /* Accent blue */
-    --accent: 205 80% 92%;
-    --accent-foreground: 210 90% 30%;
+    /* Vibrant accent blue */
+    --accent: 205 100% 88%;
+    --accent-foreground: 210 100% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 215 20% 88%;
-    --input: 215 20% 92%;
-    --ring: 210 85% 55%;
+    --border: 210 40% 85%;
+    --input: 210 40% 90%;
+    --ring: 210 100% 56%;
 
     --radius: 0.5rem;
 
-    /* Portfolio specific design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-soft: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
-    --shadow-elegant: 0 8px 32px -8px hsl(var(--primary) / 0.15);
-    --shadow-card: 0 4px 24px -4px hsl(var(--primary) / 0.08);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Enhanced portfolio design tokens with vibrant effects */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)) 50%, hsl(var(--primary-dark)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(210 100% 65%) 35%, hsl(220 100% 70%) 100%);
+    --gradient-soft: linear-gradient(180deg, hsl(var(--background)), hsl(var(--accent)) 50%, hsl(var(--secondary)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--accent)) 100%);
+    --shadow-elegant: 0 20px 60px -12px hsl(var(--primary) / 0.25);
+    --shadow-card: 0 8px 32px -8px hsl(var(--primary) / 0.15);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
